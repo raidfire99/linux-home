@@ -1,0 +1,5 @@
+set term png
+
+set output "radar.png"
+plot "radar.dat"   using   ($0/1500000):($1)
+
